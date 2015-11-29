@@ -1,0 +1,53 @@
+".container": {
+	backgroundColor:"white",
+	layout: "vertical"
+}
+
+"#getLocation" : {
+	top: "30dp"
+}
+
+".btn": {
+	backgroundColor:"blue",
+	color: "white",
+	top: "10dp",
+	height: "40dp",
+	width: Titanium.UI.FILL,
+	left: "10dp",
+	right: "10dp"
+}
+
+".card" : {
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL,
+	layout: "vertical",
+	backgroundColor:"cyan",
+	top: "20dp",
+	left: "10dp",
+	right: "10dp"
+}
+
+".label" : {
+	height: "40dp",
+	width: Titanium.UI.FILL,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#icon" : {
+	top: "5dp",
+	height: "40dp",
+	width: Titanium.UI.SIZE
+}
+
+"#searchPlace" : {
+	top: "10dp",
+	left: "10dp",
+	right: "10dp",
+	height: "50dp",
+	width: Titanium.UI.FILL
+}
+
+"#autoFillTable"  : {
+	height: "0dp",
+	width: Titanium.UI.FILL
+}

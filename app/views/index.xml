@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container">
+		<Button id="getLocation" class="btn">Get Location Data</Button>
+		<Button id="getPlaceDetails" class="btn">Get Place Details</Button>
+		<SearchBar id="searchPlace" showCancel="true" height="43" top="10" />
+		<TableView id="autoFillTable">
+		</TableView>
+		<View class="card">
+			<ImageView id="icon"></ImageView>
+			<Label id="name" class="label"></Label>
+			<Label id="vicinity" class="label"></Label>
+			<Label id="type"  class="label"></Label>
+		</View>
+	</Window>
+</Alloy>
